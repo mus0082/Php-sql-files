@@ -1,0 +1,115 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(176, 212, 222);
+}
+
+h1 {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav {
+    border: solid rgb(82, 82, 119) 3px;
+    background-color: rgb(205, 231, 234);
+    border-radius: 10%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    margin-top: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 0%;
+}
+
+#specificMarginForBio {
+    padding: 2%;
+}
+
+p {
+    margin: 0%;
+}
+
+img {
+    width: 35%;
+}
+
+main {
+    padding-left: 2%;
+}
+
+.overall-Container {
+    margin-top: 5%;
+    justify-content: center;
+    display: grid;
+    grid-template: 1fr /1fr 1fr;
+}
+
+.container-Image {
+    display: flex;
+    flex-direction: row;
+}
+
+.forTextBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.containerForForm {
+    text-align: center;
+}
+
+.colorChanged {
+    color: red;
+}
+
+#forReceipt {
+    border: solid rgb(20, 156, 246) 5px;
+    background-color: rgb(171, 201, 221);
+    padding: 3%;
+    width: 80%;
+    display: block;
+    margin: 5% 0% 0% 8%
+}
+
+#forFormBox {
+    margin-top: 1%;
+    display: inline-block;
+    border: solid rgb(20, 156, 246) 5px;
+    background-color: rgb(171, 201, 221);
+    padding: 3%;
+    border-radius: 10%;
+}
+
+#forFormVertically {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    position: relative;
+    margin: 1%;
+}

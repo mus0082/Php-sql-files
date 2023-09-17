@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Electric-Store">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registration-Form-Page</title>
+</head>
+
+<body>
+    <div class="containerForForm">
+        <header>
+            <h1>
+                Registration-Form-Page
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="Registration-Form-Page.html">Home</a></li>
+                    <li><a href="Admin.html">Admin</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="forFormBox">
+            <form action="php/form-Validation-File.php" method="post" id="forFormVertically">
+
+                <label for="name">Full-Name:</label>
+                <input type="text" id="name" name="name">
+                <p id="nameError"></p>
+
+                <label for="phone">Contact-Number:</label>
+                <input type="text" id="phone" name="phone">
+                <p id="phoneError"></p>
+
+
+                <label for="Participants"> Number of Participants<span>&#42;</span></label>
+                <select id="Participants" name="Participants">
+                    <option value="">Select Participants</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <p id="provinceError"></p>
+
+                <label for="Email">Email<span>&#42;</span></label>
+                <input type="Email" id="emailSelection" name="EmailSelection" placeholder="eg: test@test.com" />
+                <p id="emailError"></p>
+
+                <label for="Event Name">Event-Name<span>&#42;</span></label>
+                <select id="event-Name" name="eventName">
+                    <option value="">Select Event Name</option>
+                    <option value="Ball-Party">Ball Party</option>
+                    <option value="Birthday-Party">Birthday Party</option>
+                </select>
+
+                <div id="forReceipt">
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+            </form>
+        </main>
+    </div>
+
+
+    <footer>
+        <p class="fontControl"><span>&copy;</span>Copyright - Conestoga College</p>
+    </footer>
+
+
+</body>
+
+</html>
